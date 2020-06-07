@@ -11,10 +11,10 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
-   --pink: #e83e8c;
+   --pink: #e79dbf;
   --red: #dc357b;
   --orange: #f43abc;
-  --yellow: #ff0783;
+  --yellow: #da7eac;
   --green: #a72881;
   --teal: #c92088;
   --cyan: #b81782;
@@ -156,12 +156,12 @@ sup {
 }
 
 a {
-  color: #f43a88;
+  color: #eeebec;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #f35daf;
+  color: #ee9199;
   text-decoration: underline;
 }
 
@@ -2478,14 +2478,14 @@ fieldset:disabled a.btn {
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #f21672;
-  border-color: #ee0d7e;
+  background-color: #a1cdf1;
+  border-color: #ebafcd;
   box-shadow: 0 0 0 0.2rem rgba(246, 122, 88, 0.5);
 }
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #f43a78;
-  border-color: #f43a91;
+  background-color: #e4b4c4;
+  border-color: #e0b2e0;
 }
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
@@ -6092,13 +6092,13 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #f43a91 !important;
+  background-color: #fd1f87 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #ee0d58 !important;
+  background-color: #f58ce3 !important;
 }
 
 .bg-secondary {
@@ -9870,7 +9870,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-white-50 {
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgb(255, 255, 255) !important;
 }
 
 .text-hide {
